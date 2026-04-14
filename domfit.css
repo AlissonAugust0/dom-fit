@@ -153,32 +153,35 @@ header a button:hover{
 }
 
 .section-2{
+    align-items: center;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
-    align-items: center;
-    justify-content: center;
-    padding: 10rem;
+    padding: 4rem;
     background-color: #000000;
     color: white;
 }
 
-.section-2 iframe{
-    flex: 1 1 45%;
-    min-width: 280px;
-    max-width: 700px;
-    height: 420px;
+.p01-sect02 {
+   font-size: 0.8em; 
+   margin: 30px;
+}
+
+.p02-sect02 {
+    font-size: 0.8em;
+}
+
+
+
+.section-2 iframe{ 
+
+    width: 30em;
+    height: 20em;
     border: 0;
 }
 
-.section-2 .content-text{
-    min-width: 260px;
-    max-width: 420px;
-}
 
-.section-2 .content-text h3 {
-    margin-bottom: 1.4rem;
-}
 
 /* Responsividade mobile */
 @media (max-width: 900px) {
@@ -186,13 +189,13 @@ header a button:hover{
         padding: 4rem 1rem;
     }
 
-    .section-2 {
+    /* .section-2 {
         padding: 4rem 1rem;
     }
 
     .section-2 iframe{
         height: 450px;
-    }
+    } */
 
     .caixas {
         flex-wrap: wrap;
@@ -249,6 +252,13 @@ header a button:hover{
         font-size: 1.4rem;
         margin: 1rem 0;
     }
+
+    .content-list2 {
+        flex-direction: column;
+    }
+
+
+
 }
 
 .rodape {
@@ -256,6 +266,12 @@ header a button:hover{
     padding: 2rem;
     text-align: center;
     font-size: 1.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
 }
 
 .social-media {
@@ -280,6 +296,7 @@ header a button:hover{
 .div-list1{
     margin-top: 80px;
     font-size: 2rem;
+    
 }
 
 .div-list1 ul li{
@@ -327,4 +344,128 @@ header a button:hover{
 .div-list2 ul li a:hover{
     color: gray;
     transition: 0.8s;
+}
+
+.section-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5rem ;
+    background-color: black;
+    flex-wrap: wrap;
+ }
+ 
+ .content-text {
+     text-align: start; /*Alinhando os textos ao inicio*/
+     margin: 1rem; /*espaçamento em torno da caixa*/
+     color: aliceblue; /*cor do texto*/
+     font-weight: 500;/*peso da font*/
+     font-size: 2em;
+
+ 
+ }
+ 
+ .icon-div03 {
+     color: rgb(155, 152, 152); /*cores do icon*/
+     font-size: 3rem; /*tamanho dos icon*/
+     margin-top: 1.2rem;/*espaçamento superior dos icon */
+ }
+ 
+ /* inicio formatação caixa 02 da section04 */
+ 
+
+ .section-04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: rgb(1, 33, 138);
+    flex-direction: column;
+   
+ }
+ 
+
+
+ .button-div04 a button {
+     padding: 0.5rem;
+     background-color: aliceblue;
+     color: black;
+     font-weight: 600;
+     margin: 1rem 0;
+ }
+ 
+ .text-div04 p {
+     color: aliceblue;
+     font-size: 2em;
+ }
+ 
+ .button-div04 a button {
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.text-div04 p {
+    color: aliceblue;
+}
+
+.batata {
+    background-color: rgb(1, 165, 241);
+    color: rgb(255, 255, 255);
+}
+
+.batata:hover {
+    box-shadow: 10px 10px 10px rgb(56, 44, 100) ;
+    transition: 0.8s;
+}
+
+.batataimg{
+    background-image: url(imagens/Faustão\ e\ Dom\ Bosco\ na\ academia.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgb(48, 31, 94);
+}
+
+.batataimg:hover {
+    box-shadow: 10px 10px 10px rgb(59, 51, 128) ;
+    transition: 0.8s;
+}
+
+
+
+
+
+
+
+.content-boximg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.batataimg2 {
+    background-image: url(imagens/Gugu\ Liberato\ e\ Silvio\ Santos\ malhando\ juntos.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgb(48, 31, 94);
+   
+}
+
+.batataimg3 {
+    background-image: url(imagens/Pelé\ e\ Rainha\ Elizabeth\ malhando\ juntos.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgb(48, 31, 94);
+}
+
+.section-04 h2 {
+    font-size: 4em;
+    color: aliceblue;
+    
 }
