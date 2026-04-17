@@ -1,0 +1,100 @@
+body{
+    padding: 2rem;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    align-items: center;
+}
+
+.caixa2{
+    padding: 6rem;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin-top: 80px;
+    height: 15rem;
+    width: 50%;
+    min-width: 299px;
+    
+}
+
+.caixa1{
+    padding: 6rem;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    height: 15rem;
+    width: 50%;
+
+}
+
+.caixa1 h1{
+    text-transform: uppercase;
+}
+
+.caixa1 p{
+    font-size: 1.3rem;
+    margin-top: 60px;
+}
+
+.caixa2 h2{
+    color: black;
+    text-align: center;
+    margin-top: -70px;
+    font-size: 2rem;
+}
+
+.div-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.place input{
+    text-align: center;
+    border: 1.5px solid;
+    outline: none;
+    width: 13rem;
+    height: 1.2rem;
+}
+
+.place input:focus{
+    border-color: rgb(25, 0, 255) ;
+    box-shadow: 0 0 5px rgb(49, 49, 49) ;
+}
+
+.div-2{
+    margin-top: 30px;
+}
+
+.place2 input{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 1.2rem;
+    border: 1.5px solid;
+    outline: none;
+}
+
+.place2 input:focus{
+    border-color: rgb(25, 0, 255) ;
+    box-shadow: 0 0 5px rgb(49, 49, 49) ;
+}
+
+.place3{
+    display: flex;
+    gap: 30px;
+}
+
+.place3 input{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 1.2rem;
+    border: 1.5px solid;
+    outline: none;
+}
+
+.place3 input:focus{
+    border-color: rgb(25, 0, 255) ;
+    box-shadow: 0 0 5px rgb(49, 49, 49) ;
+}
+
+
